@@ -8,12 +8,12 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/gism0/Streamdeck_Project/include",
-                "c:/Users/gism0/Streamdeck_Project/src",
-                "c:/Users/gism0/Streamdeck_Project/.pio/libdeps/pro16MHzatmega168/Keyboard/src",
+                "c:/Projets/Projets_Arduino/StreamDeck_Project_LeonardoBoard/include",
+                "c:/Projets/Projets_Arduino/StreamDeck_Project_LeonardoBoard/src",
+                "c:/Projets/Projets_Arduino/StreamDeck_Project_LeonardoBoard/.pio/libdeps/leonardo/Keyboard/src",
                 "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "C:/Users/gism0/.platformio/packages/framework-arduino-avr/cores/arduino",
-                "C:/Users/gism0/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "C:/Users/gism0/.platformio/packages/framework-arduino-avr/variants/leonardo",
                 "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
@@ -23,12 +23,12 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/gism0/Streamdeck_Project/include",
-                    "c:/Users/gism0/Streamdeck_Project/src",
-                    "c:/Users/gism0/Streamdeck_Project/.pio/libdeps/pro16MHzatmega168/Keyboard/src",
+                    "c:/Projets/Projets_Arduino/StreamDeck_Project_LeonardoBoard/include",
+                    "c:/Projets/Projets_Arduino/StreamDeck_Project_LeonardoBoard/src",
+                    "c:/Projets/Projets_Arduino/StreamDeck_Project_LeonardoBoard/.pio/libdeps/leonardo/Keyboard/src",
                     "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "C:/Users/gism0/.platformio/packages/framework-arduino-avr/cores/arduino",
-                    "C:/Users/gism0/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "C:/Users/gism0/.platformio/packages/framework-arduino-avr/variants/leonardo",
                     "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "C:/Users/gism0/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
@@ -38,18 +38,22 @@
             },
             "defines": [
                 "PLATFORMIO=60105",
-                "ARDUINO_AVR_PRO",
+                "ARDUINO_AVR_LEONARDO",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
                 "ARDUINO=10808",
-                "__AVR_ATmega168__",
+                "USB_VID=0x2341",
+                "USB_PID=0x8036",
+                "USB_PRODUCT=\"Arduino Leonardo\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "__AVR_ATmega32U4__",
                 ""
             ],
             "cStandard": "c11",
             "cppStandard": "c++11",
             "compilerPath": "C:/Users/gism0/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
             "compilerArgs": [
-                "-mmcu=atmega168",
+                "-mmcu=atmega32u4",
                 ""
             ]
         }
