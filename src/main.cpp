@@ -73,6 +73,10 @@ button buttons[] = {
 const uint8_t NumButtons = sizeof(buttons)/sizeof(button);
 const uint8_t ledPin = 17;
 
+void failSafe(){
+  for(;;){} //Just going to hang out here for a while
+}
+
 void setup() {
   // put your setup code here, to run once:
   //Safety check. Ground pin #1 (RX) to cancel keyboard inputs.
@@ -101,8 +105,4 @@ void loop() {
   {
     buttons[i].update();
   }
-}
-
-void failSafe(){
-  for(;;){} //Just going to hang out here for a while
 }
