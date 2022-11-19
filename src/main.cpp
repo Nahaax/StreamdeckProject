@@ -32,8 +32,8 @@
 // Button helper class for handling press/release and debouncing
 class button {
   public:
-  const char key;
-  const uint8_t pin;
+    const char key;
+    const uint8_t pin;
 
   button(uint8_t k, uint8_t p) : key(k), pin(p){}
 
@@ -53,10 +53,10 @@ class button {
       press(!digitalRead(pin));
     }
 
-    private:
-      const unsigned long debounceTime = 30;
-      unsigned long lastPressed = 0;
-      boolean pressed = 0;
+  private:
+    const unsigned long debounceTime = 30;
+    unsigned long lastPressed = 0;
+    boolean pressed = 0;
 };
 
 button buttons[] = {
@@ -95,8 +95,6 @@ void setup() {
   {
     pinMode(buttons[i].pin, INPUT_PULLUP);
   }
-  
-
 }
 
 void loop() {
