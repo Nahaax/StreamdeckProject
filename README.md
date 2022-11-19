@@ -17,5 +17,6 @@ Here are the links for the initial tutorial that this DIY Streamdeck will follow
 
 ## Usefull buy for Arduino projects :
     - Soldering iron starter kit (Link : https://www.amazon.fr/Vastar-Temperature-Multimètre-Dessouder-Pincettes/dp/B07SYY8C6J/ref=sr_1_17_sspa?__mk_fr_FR=ÅMÅŽÕÑ&dchild=1&keywords=fer%20a%20souder&qid=1592919933&s=hi&sr=1-17-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE2TU5LU0g1UDNUMyZlbmNyeXB0ZWRJZD1BMDg2MjA0OTEwUVA4RlI1NlZTNVomZW5jcnlwdGVkQWRJZD1BMDI0OTIyMjdVR0lZRFVBRTcxRCZ3aWRnZXROYW1lPXNwX2J0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&fbclid=IwAR33VxCsIExJL3H6LCemyK5Utj_vaTPz2cmOp5C-bn1CGKau4rMPI_z4KcQ&tag=coa_fr_g-21)
+## Some elementary basis of electronics
 
-
+    - A link to a website that gives tutorials to understand and learn more about Arduino developpement and basics of electronics : https://zestedesavoir.com/tutoriels/686/arduino-premiers-pas-en-informatique-embarquee/742_decouverte-de-larduino/3415_quelques-bases-elementaires/
