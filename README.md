@@ -4,6 +4,8 @@ Code for the Streamdeck creation project with Arduino board
 Here are the links for the initial tutorial that this DIY Streamdeck will follow + A Youtube video showing the realization of the project (Very helpful to understand how to solder and place everything correctly, especially when it is the first time :D).
 ## Link of the tutorial :
     - https://www.partsnotincluded.com/diy-stream-deck-mini-macro-keyboard/?fbclid=IwAR0UtzLVt_wFhyvm_4Dsg-70P-aRmRaKKlbUl2We5WWIP2Ri91Zzl952eIg
+_(All credits goes to the owner of this project : Dave from Parts Not Included )_
+
 ## Youtube video :
     - https://www.youtube.com/watch?v=2WubmtOTeL8
 ## List of component to buy for the board :
@@ -19,6 +21,14 @@ Here are the links for the initial tutorial that this DIY Streamdeck will follow
     - Soldering iron starter kit (Link : https://www.amazon.fr/Vastar-Temperature-Multimètre-Dessouder-Pincettes/dp/B07SYY8C6J/ref=sr_1_17_sspa?__mk_fr_FR=ÅMÅŽÕÑ&dchild=1&keywords=fer%20a%20souder&qid=1592919933&s=hi&sr=1-17-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE2TU5LU0g1UDNUMyZlbmNyeXB0ZWRJZD1BMDg2MjA0OTEwUVA4RlI1NlZTNVomZW5jcnlwdGVkQWRJZD1BMDI0OTIyMjdVR0lZRFVBRTcxRCZ3aWRnZXROYW1lPXNwX2J0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&fbclid=IwAR33VxCsIExJL3H6LCemyK5Utj_vaTPz2cmOp5C-bn1CGKau4rMPI_z4KcQ&tag=coa_fr_g-21)
 ## Some elementary basis of electronics
 
-    - A link to a website that gives tutorials to understand and learn more about Arduino developpement and basics of electronics : https://zestedesavoir.com/tutoriels/686/arduino-premiers-pas-en-informatique-embarquee/742_decouverte-de-larduino/3415_quelques-bases-elementaires/
+- A link to a website that gives tutorials to understand and learn more about Arduino developpement and basics of electronics : https://zestedesavoir.com/tutoriels/686/arduino-premiers-pas-en-informatique-embarquee/742_decouverte-de-larduino/3415_quelques-bases-elementaires/
 
-## Test
+## More videos for this type of projects
+
+While I was searching for tutorial concerning how to build this StreamDeck project ( and especially when it comes to soldering, which is totally new for me) I found this video showing how to build a mega version of a stream deck. I thought it could be great to look further (after finishing the little project) and build a very sophisticated v2 Stream Deck
+
+Link to the video : https://www.youtube.com/watch?v=nndeAxd5FdM
+
+Link to the blog : https://there.oughta.be/a/macro-keyboard
+
+_(All credits goes to There.oughta.be owner for his project : Macro Keyboard)_
